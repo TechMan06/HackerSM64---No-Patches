@@ -1,3 +1,9 @@
+# Hacker SM64 without Patches
+
+A version of [HackerSM64](https://github.com/TechMan06/HackerSM64---No-Patches/edit/master/README.md) without most patches (except for optimizations and minor fixes), with the goal of being as close to the vanilla game as possible. Use it as a clean slate for your project in case you want to use HackerSM64 but doesn't want to go through the hoops of manually disabling everything.
+
+If any patch here is enabled which isn't on the original game, please issue a pull request and let me know.
+
 # ![](https://i.imgur.com/CeOukzk.gif) HackerSM64 ![](https://i.imgur.com/s0LUbTo.gif)
 
 **AFTER CLONING THE REPO, CHECK OUT THE `include/config` FOLDER BEFORE ANYTHING ELSE! THERE'S A LOT OF STUFF IN THIS REPO THAT CAN BE TOGGLED THERE.**
