@@ -20,17 +20,17 @@
 /**
  * Show a watermark on the title screen that reads "Made with HackerSM64", instead of the copyright message.
  */
-#define INTRO_CREDIT
+// #define INTRO_CREDIT
 
 /**
  * Spawns floombas on the title screen.
  */
-#define INTRO_FLOOMBAS
+// #define INTRO_FLOOMBAS
 
 /**
  * Enables widescreen (16:9) support.
  */
-#define WIDE
+// #define WIDE
 
 /**
  * Skybox size modifier, changing this will add support for larger skybox images. NOTE: Vanilla skyboxes may break if you change this option. Be sure to rescale them accordingly.
@@ -44,7 +44,7 @@
  * When this option is disabled, LODs will work regardless of whether console or emulator is used.
  * Regardless of whether this setting is enabled or not, you can use gEmulator to wrap your own code in a console check.
  */
-#define AUTO_LOD
+// #define AUTO_LOD
 
 /**
  * Enables Puppyprint, a display library for text and large images.
@@ -87,7 +87,7 @@
 /**
  * Use 64x64 quarter shadow textures (Vanilla are 16x16).
  */
-#define HD_SHADOWS
+// #define HD_SHADOWS
 
 /**
  * Makes certain objects (mainly trees) transparent when the camera gets close.
@@ -97,7 +97,7 @@
 /**
  * Fixes the game reading the ia8 burn smoke texture as an rgba16.
  */
-#define BURN_SMOKE_FIX
+// #define BURN_SMOKE_FIX
 
 /**
  * Disables the fix to Koopa's unshelled model.

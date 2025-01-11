@@ -8,12 +8,12 @@
  * Enables some mechanics that change behavior depending on hardcoded level numbers.
  * TODO: separate this into separate defines, behavior params, or make these mechanics otherwise dynamic.
 */
-// #define ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
+#define ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
 
 /**
  * Enable lives and the lives counter. The number next to the define is the number of lives you start with.
  */
-// #define ENABLE_LIVES 4
+#define ENABLE_LIVES 4
 
 /**
  * This can be 0..127.
@@ -76,7 +76,7 @@
  * [MAKE SURE TO INCLUDE EU AND JP/SH BASEROMS IN THE REPO TO OBTAIN THE ASSETS]
  * If this is disabled, backup assets will be used.
  */
-// #define COMPLETE_EN_US_SEGMENT2
+//#define COMPLETE_EN_US_SEGMENT2
 
 /**
  * Removes multi-language cake screen.
@@ -91,7 +91,7 @@
 /**
  * Prevents infinite death loops by always restoring Mario's health when he's warped to any kind of warp while dead.
  */
-#define PREVENT_DEATH_LOOP
+// #define PREVENT_DEATH_LOOP
 
 /**
  * The level that the game starts with immediately after file select.
